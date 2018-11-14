@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+body {
+	background:url('http://new.graphicpanic.com/wp-content/uploads/2015/09/music-hd-background.jpg');
+	background-size:cover;
+}
+
+li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+
+.displaymenu {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: White;
+	font-size: 17px;
+	font-family: Verdana, Geneva, sans-serif;
+	
+}
+
+
+
+table {
+	border-radius: 10px;
+	margin: 25px;
+	background-color:white;
+	border-collapse: collapse;
+	border: none;
+}
+
+th {
+	padding: 5px 15px;
+	height: 50px;
+	width: 50px;
+	color: green;
+	overflow: hidden;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+menu {
+	
+}
+
+th, td {
+	border-radius: 10px;
+	text-wrap: none;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px 20px;
+}
+
+tr {
+	padding: 5px 5px;
+	text-align:center;
+}
+
+tr:nth-child(even) {
+	background-color:#f2f2f2;
+}
+
+.pagetitle {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: white;
+	text-align: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;	
+}
+
+.menulist {
+	
+}
+
+.pagedescription {
+	color: white;
+	text-align: right;
+	font-family: "Arial", Helvetica, sans-serif;
+}
+
+
+a {
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right:30px;
+	color: green;
+	display: inline;
+	margin: 0;
+	border: 0;
+	
+}
+
+atable {
+	margin: 0;
+	padding: 0;
+}
+
+li a:hover {
+	background-color: green;
+	color: white;
+}
